@@ -1,6 +1,9 @@
 output/
+
 data/*
 !data/README.md
+!data/controls_meta.csv
+
 .Rhistory
 .RData
 .Rproj.user/
