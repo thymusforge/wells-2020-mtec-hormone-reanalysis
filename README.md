@@ -10,13 +10,21 @@ Wells et al. Combined transient ablation and single-cell RNA-sequencing reveals 
 
 ## Data source
 
-The original RNA-seq data used in Wells et al. eLife 2020 were deposited in NCBI GEO under accession number GSE137699.
+The original scRNA-seq data used in Wells et al. eLife 2020 were deposited in NCBI GEO under accession number **GSE137699**.
 
-Because the processed CSV files are large, this repository does not include the input data files directly. To run the scripts, download or prepare the corresponding GEO-derived files and place them in the `data/` folder with the following names:
+This repository includes the sample metadata file:
 
-- `controls_meta.csv`
-- `GSE137699_allSamples.csv`
-- `GSE137699_combinedControl.csv`
+* `controls_meta.csv`
+
+Because the processed expression matrices are large, the following input files are **not included** in this repository:
+
+* `GSE137699_allSamples.csv`
+* `GSE137699_combinedControl.csv`
+
+To run the analysis, please download or prepare these GEO-derived processed CSV files and place them in the `data/` folder using the exact file names listed above.
+
+The `output/` folder is generated automatically by the scripts and is not tracked by Git.
+
 
 The `output/` folder is generated automatically by the scripts and is not tracked by Git.
 
