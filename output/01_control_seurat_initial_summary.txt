@@ -1,0 +1,20 @@
+Project root: C:/Users/29925/Documents/GitHub/reanalyze
+Input expression file: C:/Users/29925/Documents/GitHub/reanalyze/data/GSE137699_combinedControl.csv
+Input metadata file: C:/Users/29925/Documents/GitHub/reanalyze/data/controls_meta.csv
+Output Seurat object: C:/Users/29925/Documents/GitHub/reanalyze/output/control_seurat_initial.rds
+
+Genes: 20309
+Cells: 2434
+RNA layers: data
+
+Cells per experiment:
+
+isoControlBeg isoControlEnd 
+         1163          1271 
+
+Cells per Figure 1b stage:
+
+Aire_positive     Late_Aire       TAC_TEC   Ccl21a_high          cTEC 
+          823           537           418           285           238 
+         Tuft       unknown 
+           75            58 

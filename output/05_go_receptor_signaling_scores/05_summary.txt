@@ -1,0 +1,24 @@
+Input object: C:/Users/29925/Documents/GitHub/reanalyze/output/control_seurat_pca_umap.rds
+Output object: C:/Users/29925/Documents/GitHub/reanalyze/output/control_seurat_go_receptor_signaling_scores.rds
+Output directory: C:/Users/29925/Documents/GitHub/reanalyze/output/05_go_receptor_signaling_scores
+
+UMAP reduction used: umap_reanalysis
+Cells scored after excluding unknown Figure 1b states: 2376
+
+GO terms scored:
+  GO:0030520 / GOBP_ESTROGEN_RECEPTOR_SIGNALING_PATHWAY
+  GO:0030521 / GOBP_ANDROGEN_RECEPTOR_SIGNALING_PATHWAY
+
+Score definition:
+  Raw score = mean log-normalized RNA expression across present genes.
+  Z score = raw score scaled across all cells in the full control object.
+
+Main output files:
+  05A_featureplot_<term>.png/pdf
+  05B_boxplot_<term>_by_stage.png/pdf
+  05C_panel_<term>.png/pdf if patchwork is installed
+  05D_featureplot_estrogen_androgen_combined.png/pdf if patchwork is installed
+  05E_boxplot_estrogen_androgen_by_stage.png/pdf
+  05_gene_set_summary.csv
+  05_cell_scores.csv
+  05_stage_score_summary.csv

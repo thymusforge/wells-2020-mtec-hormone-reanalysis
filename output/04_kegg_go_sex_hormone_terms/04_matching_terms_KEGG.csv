@@ -1,0 +1,4 @@
+"source","gs_collection","gs_subcollection","gs_name","gs_id","gs_exact_source","gs_description","total_genes_in_set","total_db_genes_in_set","keyword_group","matched_keyword"
+"KEGG","C2","CP:KEGG_MEDICUS","KEGG_MEDICUS_ENV_FACTOR_E2_TO_NUCLEAR_INITIATED_ESTROGEN_SIGNALING_PATHWAY","M47805","N01364","Pathway Definition from KEGG: E2 -> ESR1/2 => (EGF,FGF9,DLL)",5,5,"Estrogen_or_estradiol","ESTROGEN|ESTRADIOL"
+"KEGG","C2","CP:KEGG_MEDICUS","KEGG_MEDICUS_REFERENCE_NUCLEAR_INITIATED_ESTROGEN_SIGNALING_PATHWAY","M47503","N00286","Pathway Definition from KEGG: E2 -> ((ESR1/2)+(NCOA1/2/3)) => (BCL2,EBAG9,KRT19,CTSD,TFF1,PGR)",3,3,"Estrogen_or_estradiol","ESTROGEN|ESTRADIOL"
+"KEGG","C2","CP:KEGG_MEDICUS","KEGG_MEDICUS_VARIANT_ESR1_POSITIVE_TO_NUCLEAR_INITIATED_ESTROGEN_SIGNALING_PATHWAY","M48983","N00287","Pathway Definition from KEGG: E2 -> (ESR*+(NCOA3,NCOA1)) => (CCND1,MYC)",2,2,"Estrogen_or_estradiol","ESTROGEN|ESTRADIOL"

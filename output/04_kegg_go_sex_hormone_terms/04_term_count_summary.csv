@@ -1,0 +1,5 @@
+source,keyword_group,matching_term_count,total_terms_in_source
+GO,Androgen,9,9963
+GO,Estrogen_or_estradiol,15,9963
+KEGG,Androgen,0,835
+KEGG,Estrogen_or_estradiol,3,835

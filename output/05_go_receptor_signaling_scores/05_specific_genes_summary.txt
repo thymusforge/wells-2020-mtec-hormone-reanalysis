@@ -1,0 +1,20 @@
+Input object: C:/Users/29925/Documents/GitHub/reanalyze/output/control_seurat_pca_umap.rds
+Output directory: C:/Users/29925/Documents/GitHub/reanalyze/output/05_go_receptor_signaling_scores
+
+Purpose:
+  DotPlot individual genes from GO:0030520 and GO:0030521 across Figure 1b states.
+
+GO terms:
+  GO:0030520 / GOBP_ESTROGEN_RECEPTOR_SIGNALING_PATHWAY
+  GO:0030521 / GOBP_ANDROGEN_RECEPTOR_SIGNALING_PATHWAY
+
+Estrogen receptor signaling genes present: 53
+Androgen receptor signaling genes present: 47
+Shared genes present: 5
+
+Main output files:
+  05F_dotplot_<term>_genes_by_stage.png/pdf
+  05G_dotplot_shared_genes_by_stage.png/pdf
+  05H_dotplot_<term_unique>_genes_by_stage.png/pdf
+  05_specific_gene_membership.csv
+  05_specific_gene_expression_summary.csv

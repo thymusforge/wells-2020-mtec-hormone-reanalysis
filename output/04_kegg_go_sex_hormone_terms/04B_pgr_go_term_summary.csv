@@ -1,0 +1,4 @@
+target_gene,gs_subcollection,pgr_go_term_count,total_go_terms
+Pgr,GO:BP,76,7535
+Pgr,GO:CC,5,1080
+Pgr,GO:MF,17,1870
